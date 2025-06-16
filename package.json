@@ -2,7 +2,9 @@
   "name": "jacui-forecast",
   "type": "module",
   "version": "1.0.0",
-  "dependencies": {},
+  "dependencies": {
+    "marked": "^15.0.12"
+  },
   "scripts": {
     "build": "node src/generate.js"
   }
