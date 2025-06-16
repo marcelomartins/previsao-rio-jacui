@@ -6,7 +6,7 @@ Sistema automatizado de monitoramento meteorológico da Bacia do Rio Jacuí com 
 
 Este projeto gera boletins diários para a região da Bacia do Rio Jacuí, no Rio Grande do Sul. O sistema utiliza dados meteorológicos em tempo real e inteligência artificial para comparar as condições atuais com o evento extremo da enchente de maio de 2024, oferecendo uma análise compreensível para o público geral.
 
-O último Boletim gerado pode ser acessado em https://marcelomartins.github.io/previsao-rio-jacui/
+A última previsão gerada pode ser acessado em https://marcelomartins.github.io/previsao-rio-jacui/
 
 ## 🎯 Características
 
@@ -68,7 +68,7 @@ O sistema coleta os seguintes parâmetros da estação meteorológica da região
 O projeto utiliza GitHub Actions para:
 
 - Execução diária às 07:00 (horário de Brasília)
-- Geração automática do boletim
+- Geração automática da previsão
 - Deploy na GitHub Pages
 - Possibilidade de execução manual
 
