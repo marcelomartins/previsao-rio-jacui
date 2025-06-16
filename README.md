@@ -1,12 +1,12 @@
 # Previsão Rio Jacuí em comparação a enchente de 2024
 
-Sistema automatizado de monitoramento meteorológico da Bacia do Rio Jacuí com comparações em relação à enchente histórica de 2024.
+Sistema automatizado de monitoramento da Bacia do Rio Jacuí com comparações em relação à enchente histórica de 2024.
+
+A última previsão gerada pode ser acessado em https://marcelomartins.github.io/previsao-rio-jacui/
 
 ## 📋 Sobre o Projeto
 
-Este projeto gera boletins diários para a região da Bacia do Rio Jacuí, no Rio Grande do Sul. O sistema utiliza dados meteorológicos em tempo real e inteligência artificial para comparar as condições atuais com o evento extremo da enchente de maio de 2024, oferecendo uma análise compreensível para o público geral.
-
-A última previsão gerada pode ser acessado em https://marcelomartins.github.io/previsao-rio-jacui/
+Este projeto gera previsões diárias para a região da Bacia do Rio Jacuí, no Rio Grande do Sul. O sistema utiliza dados meteorológicos em tempo real e inteligência artificial para comparar as condições atuais com o evento extremo da enchente de maio de 2024, oferecendo uma análise compreensível para o público geral.
 
 ## 🎯 Características
 
