@@ -42,6 +42,7 @@ async function main() {
   <h1>Previsão – Bacia do Jacuí</h1>
   <div>${ts}</div>
   <p>${htmlBody}</p>
+  <p>&nbsp;</p>
   <p>
     <strong>⚠️ Aviso Importante:</strong> Esta comparação é gerada por <strong>inteligência artificial</strong> e tem caráter apenas informativo. 
     Para previsões meteorológicas oficiais e situações de emergência, consulte sempre os órgãos responsáveis como 
