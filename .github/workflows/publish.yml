@@ -2,7 +2,6 @@ name: Build & publish daily forecast
 
 on:
   schedule:
-    # 10:00 UTC  ≈ 07:00 BRT
     - cron: "0 10 * * *"
   workflow_dispatch:
 
@@ -24,9 +23,8 @@ jobs:
     - name: Install deps & build site
       run: |
         npm ci
-        npm run build            # gera public/index.html
+        npm run build
 
-    # ⬇️ VERSÃO NOVA, sem advertência
     - name: Upload Pages artifact
       uses: actions/upload-pages-artifact@v3
       with:
@@ -36,8 +34,8 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     permissions:
-      pages: write      # obrigatórios
-      id-token: write   #  ↑
+      pages: write
+      id-token: write
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
