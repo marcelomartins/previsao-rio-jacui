@@ -8,11 +8,9 @@ A última previsão gerada pode ser acessado em https://marcelomartins.github.io
 
 Este projeto gera previsões diárias para a região da Bacia do Rio Jacuí, no Rio Grande do Sul. O sistema utiliza dados meteorológicos em tempo real e inteligência artificial para comparar as condições atuais com o evento extremo da enchente de maio de 2024, oferecendo uma análise compreensível para o público geral.
 
-
 ## ⚠️ Aviso Importante
 
 Esta comparação é gerada por inteligência artificial e tem caráter apenas informativo. Para previsões meteorológicas oficiais e situações de emergência, consulte sempre os órgãos responsáveis como <a href="https://portal.inmet.gov.br/" target="_blank">INMET</a> e <a href="https://www.defesacivil.rs.gov.br/" target="_blank">Defesa Civil</a>.
-
 
 ## 🎯 Características
 
