@@ -34,13 +34,18 @@ async function main() {
     .replace(/\n/g, "<br>");
 
   const htmlBody = marked.parse(texto)
-
   const ts = new Date().toLocaleString("pt-BR", { timeZone: "America/Sao_Paulo" });
   const html = `<!DOCTYPE html><html lang="pt-BR"><meta charset="utf-8">
   <title>Previsão – Bacia do Jacuí - ${ts}</title>
-  <style>body{font-family:system-ui,Arial,sans-serif;margin:2rem;line-height:1.4}</style>
+  <style>body{font-family:system-ui,Arial,sans-serif;margin:2rem;line-height:1.4}.disclaimer{margin-top:2rem;padding:1rem;background-color:#f8f9fa;border-left:4px solid #007bff;font-size:0.9em;color:#6c757d}</style>
   <h1>Previsão – Bacia do Jacuí</h1>
-  <div>${ts} (BRT)</div><p>${htmlBody}</p>`;
+  <div>${ts} (BRT)</div><p>${htmlBody}</p>
+  <div class="disclaimer">
+    <strong>⚠️ Aviso Importante:</strong> Esta comparação é gerada por inteligência artificial e tem caráter apenas informativo. 
+    Para previsões meteorológicas oficiais e situações de emergência, consulte sempre os órgãos responsáveis como 
+    <a href="https://portal.inmet.gov.br/" target="_blank">INMET</a> e 
+    <a href="https://www.defesacivil.rs.gov.br/" target="_blank">Defesa Civil</a>.
+  </div>`;
   writeFileSync(resolve(publicDir, "index.html"), html);
 }
 
