@@ -1,0 +1,45 @@
+name: Build & publish daily forecast
+
+on:
+  schedule:
+    - cron: "0 10 * * *"   # 10:00 UTC → 07:00 BRT :contentReference[oaicite:0]{index=0}
+  workflow_dispatch:        # botão “Run workflow” na interface
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+    steps:
+    - name: Checkout repo
+      uses: actions/checkout@v4  # :contentReference[oaicite:1]{index=1}
+
+    - name: Setup Node
+      uses: actions/setup-node@v4
+      with:
+        node-version: 20
+
+    - name: Install deps & build site
+      run: |
+        npm ci
+        npm run build
+
+    # cria artefato para Pages
+    - name: Upload artifact
+      uses: actions/upload-pages-artifact@v2
+      with:
+        path: public
+
+  deploy:
+    needs: build
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write        # publicar
+      id-token: write     # OIDC
+    steps:
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v2
