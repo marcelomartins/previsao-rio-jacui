@@ -2,9 +2,7 @@
   "name": "jacui-forecast",
   "type": "module",
   "version": "1.0.0",
-  "dependencies": {
-    "node-fetch": "^3.4.1"
-  },
+  "dependencies": {},
   "scripts": {
     "build": "node src/generate.js"
   }

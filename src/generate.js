@@ -1,4 +1,3 @@
-import fetch from "node-fetch";
 import { writeFileSync, mkdirSync } from "node:fs";
 import { resolve } from "node:path";
 
