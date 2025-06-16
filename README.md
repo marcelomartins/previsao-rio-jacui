@@ -12,7 +12,6 @@ Este projeto gera boletins hidrometeorológicos diários para a região da Bacia
 - **Comparação Histórica**: Compara condições atuais com a enchente de 2024
 - **Linguagem Acessível**: Relatórios sem jargões técnicos para fácil compreensão
 - **Atualização Diária**: Geração automática de boletins através do GitHub Actions
-- **Interface Web**: Página HTML responsiva com os boletins
 
 ## 🛠️ Tecnologias Utilizadas
 
