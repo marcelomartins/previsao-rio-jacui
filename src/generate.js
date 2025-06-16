@@ -3,8 +3,11 @@ import { writeFileSync, mkdirSync } from "node:fs";
 import { resolve } from "node:path";
 import { buildForecastPrompt } from "./prompt.js";
 
-// const LAT = -29.94, LON = -51.72;
-const LAT = -30.0339, LON = -51.2461;
+// const LAT = -29.94, LON = -51.72; // Porto Alegre, RS, Brasil
+// const LAT = -28.95, LON = -51.55; // Veranópolis, RS, Brasil
+//const LAT = -29.1681, LON = -51.1794; // Caxias do Sul, RS, Brasil
+const LAT = -29.46694, LON = -51.96083; // Lajeado, RS, Brasil
+
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
 const publicDir = resolve("public");
 mkdirSync(publicDir, { recursive: true });
@@ -39,9 +42,9 @@ async function main() {
     const html = `<!DOCTYPE html><html lang="pt-BR">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Bacia do Jacuí - Previsão próximos dias - ${ts}</title>
+  <title>Previsão próximos dias - RS - ${ts}</title>
   <style>body{font-family:system-ui,Arial,sans-serif;margin:1rem;line-height:1.5;font-size:16px}h1{font-size:1.5rem;margin-bottom:1rem}a{color:#0066cc}</style>
-  <h1>Bacia do Jacuí - Previsão para os próximos dias em comparação a enchente de 2024</h1>
+  <h1>Previsão no RS para os próximos dias em comparação a enchente de 2024</h1>
   <div>${ts}</div>
   <p>${htmlBody}</p>
   <p>&nbsp;</p>

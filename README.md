@@ -2,7 +2,7 @@
 
 Sistema automatizado de monitoramento da Bacia do Rio Jacuí com comparações em relação à enchente histórica de 2024.
 
-A última previsão gerada pode ser acessado em https://marcelomartins.github.io/previsao-rio-jacui/
+A última previsão gerada pode ser acessado em https://marcelomartins.github.io/previsao-rs/
 
 ## 📋 Sobre o Projeto
 
@@ -39,7 +39,7 @@ Esta comparação é gerada por inteligência artificial e tem caráter apenas i
 1. Clone o repositório:
 ```bash
 git clone <url-do-repositorio>
-cd previsao-rio-jacui
+cd previsao-rs
 ```
 
 2. Instale as dependências:
