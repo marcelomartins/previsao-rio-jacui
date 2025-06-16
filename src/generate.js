@@ -3,7 +3,8 @@ import { writeFileSync, mkdirSync } from "node:fs";
 import { resolve } from "node:path";
 import { buildForecastPrompt } from "./prompt.js";
 
-const LAT = -29.94, LON = -51.72;
+// const LAT = -29.94, LON = -51.72;
+const LAT = -30.0339, LON = -51.2461;
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
 const publicDir = resolve("public");
 mkdirSync(publicDir, { recursive: true });
