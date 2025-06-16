@@ -3,7 +3,7 @@ Abaixo está a previsão do tempo do que iremos chamar de enchente de 2024. Ela 
 
 == CONTEXTO DA ENCHENTE DE 2024
 
-Contexto sinóptico (29 de abril → 3 de maio de 2024)
+Contexto sinóptico (29 de abril até 3 de maio de 2024)
 Cavado profundo + jato de baixos níveis canalizaram ar úmido da Amazônia sobre o RS.
 
 Uma frente quase estacionária ficou ancorada no Centro-Sul do estado; sucessivos núcleos convectivos se formaram sobre as bacias do Jacuí e avançaram para o Guaíba.
@@ -57,11 +57,13 @@ E abaixo está o JSON com a previsão do tempo para os próximos dias:
 
 == FIM JSON PREVISÃO PRÓXIMOS DIAS
 
-Atue como um meteorologista experiente, e de informações sobre a previsão dos próximos dias em comparação com a enchente de 2024. Objetivo não é saber se vai chover ou fazer sol nos próximos dias, mas sim saber a diferença entre a previsão dos próximos dias em comparação com a enchente de 2024.
+Atue como um meteorologista experiente, e de informações sobre a previsão dos próximos dias em comparação com a enchente de 2024. Objetivo ter uma visão geral da previsão dos próximos dias, e saber a diferença entre a previsão dos próximos dias em comparação com a enchente de 2024.
 
 Não use termos técnicos, fale para que pessoas comuns que não estudaram meteorologia consigam entender facilmente a diferença.
 
-Faça uma comparação, mas sem frisar que está comparando, da precisão do tempo da enchente de 2024, e entre hoje e os próximos 4 dias, avaliando a possível severidade da condição climática. Sem usar tabelas, faça apenas um pequeno resumo em texto, e depois pequenos tópicos dos motivos de estar pior ou melhor.
+Faça uma comparação, mas sem frisar que está comparando, da precisão do tempo da enchente de 2024, e entre hoje e os próximos 4 dias, avaliando a possível severidade da condição climática. 
+
+Sem usar tabelas, faça apenas um pequeno resumo em texto com a previsão para os próximos dias e como se relaciona com a enchente de 2024, e depois pequenos tópicos dos motivos de estar pior ou melhor.
 
 Não use termos técnicos, seja sucinto.
 

@@ -37,9 +37,9 @@ async function main() {
   const ts = new Date().toLocaleString("pt-BR", { timeZone: "America/Sao_Paulo" }); 
   
   const html = `<!DOCTYPE html><html lang="pt-BR"><meta charset="utf-8">
-  <title>Previsão – Bacia do Jacuí - ${ts}</title>
+  <title>Bacia do Jacuí - Previsão próximos dias - ${ts}</title>
   <style>body{font-family:system-ui,Arial,sans-serif;margin:2rem;line-height:1.4}</style>
-  <h1>Previsão – Bacia do Jacuí</h1>
+  <h1>Bacia do Jacuí - Previsão para os próximos dias em comparação a enchente de 2024</h1>
   <div>${ts}</div>
   <p>${htmlBody}</p>
   <p>&nbsp;</p>
