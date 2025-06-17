@@ -1,4 +1,4 @@
-# Previsão Rio Jacuí em comparação a enchente de 2024
+# Previsão do tempo para o Rio Grande do Sul em comparação a enchente de 2024
 
 Sistema automatizado de monitoramento da região da Bacia do Rio Jacuí com comparações em relação à enchente histórica de 2024.
 
