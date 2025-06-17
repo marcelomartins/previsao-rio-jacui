@@ -97,9 +97,3 @@ Contribuições são bem-vindas! Sinta-se à vontade para:
 ## 📄 Licença
 
 Este projeto é de código aberto e está disponível sob a licença MIT.
-
-## ⚠️ Aviso Importante
-
-Este sistema é para fins informativos e educacionais. Para situações de emergência ou decisões críticas relacionadas ao clima, consulte sempre fontes oficiais como INMET, Defesa Civil e órgãos competentes.
-
-
