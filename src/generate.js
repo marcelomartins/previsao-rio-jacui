@@ -53,7 +53,10 @@ async function main() {
     Para previsões meteorológicas oficiais e situações de emergência, consulte sempre os órgãos responsáveis como 
     <a href="https://portal.inmet.gov.br/" target="_blank">INMET</a> e 
     <a href="https://www.defesacivil.rs.gov.br/" target="_blank">Defesa Civil</a>.
-  </p>`;
+  </p>
+  <footer style="margin-top:1rem;font-size:14px;color:#666;text-align:center">
+    <p>Código fonte disponível em: <a href="https://github.com/marcelomartins/previsao-rs" target="_blank">github.com/marcelomartins/previsao-rs</a></p>
+  </footer>`;
   writeFileSync(resolve(publicDir, "index.html"), html);
 }
 

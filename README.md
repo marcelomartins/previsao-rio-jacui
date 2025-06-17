@@ -1,6 +1,6 @@
 # Previsão Rio Jacuí em comparação a enchente de 2024
 
-Sistema automatizado de monitoramento da Bacia do Rio Jacuí com comparações em relação à enchente histórica de 2024.
+Sistema automatizado de monitoramento da região da Bacia do Rio Jacuí com comparações em relação à enchente histórica de 2024.
 
 A última previsão gerada pode ser acessado em https://marcelomartins.github.io/previsao-rs/
 
@@ -102,6 +102,4 @@ Este projeto é de código aberto e está disponível sob a licença MIT.
 
 Este sistema é para fins informativos e educacionais. Para situações de emergência ou decisões críticas relacionadas ao clima, consulte sempre fontes oficiais como INMET, Defesa Civil e órgãos competentes.
 
----
 
-*Desenvolvido para monitoramento da Bacia do Rio Jacuí - RS, Brasil*
