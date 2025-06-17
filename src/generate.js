@@ -45,7 +45,7 @@ async function main() {
   <title>Previsão próximos dias - RS - ${ts}</title>
   <style>body{font-family:system-ui,Arial,sans-serif;margin:1rem;line-height:1.5;font-size:16px}h1{font-size:1.5rem;margin-bottom:1rem}a{color:#0066cc}</style>
   <h1>Previsão no RS para os próximos dias em comparação a enchente de 2024</h1>
-  <div>${ts}</div>
+  <div>Gerado em ${ts}</div>
   <p>${htmlBody}</p>
   <p>&nbsp;</p>
   <p>
