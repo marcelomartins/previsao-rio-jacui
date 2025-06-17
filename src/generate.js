@@ -54,7 +54,8 @@ async function main() {
     <a href="https://portal.inmet.gov.br/" target="_blank">INMET</a> e 
     <a href="https://www.defesacivil.rs.gov.br/" target="_blank">Defesa Civil</a>.
   </p>
-  <footer style="margin-top:1rem;font-size:14px;color:#666;text-align:center">
+  <p>&nbsp;</p>
+  <footer style="margin-top:1rem;font-size:14px;color:#666;text-align:left">
     <p>Código fonte disponível em: <a href="https://github.com/marcelomartins/previsao-rs" target="_blank">github.com/marcelomartins/previsao-rs</a></p>
   </footer>`;
   writeFileSync(resolve(publicDir, "index.html"), html);
