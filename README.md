@@ -2,7 +2,7 @@
 
 Sistema automatizado de monitoramento da região da Bacia do Rio Jacuí com comparações em relação à enchente histórica de 2024.
 
-A última previsão gerada pode ser acessado em https://marcelomartins.github.io/previsao-rs/
+A última previsão gerada pode ser acessado em https://previsaors.bealabs.net
 
 ## 📋 Sobre o Projeto
 
