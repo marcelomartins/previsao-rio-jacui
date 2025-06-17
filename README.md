@@ -12,6 +12,13 @@ Este projeto gera previsões diárias para a região da Bacia do Rio Jacuí, no 
 
 Esta comparação é gerada por inteligência artificial e tem caráter apenas informativo. Para previsões meteorológicas oficiais e situações de emergência, consulte sempre os órgãos responsáveis como <a href="https://portal.inmet.gov.br/" target="_blank">INMET</a> e <a href="https://www.defesacivil.rs.gov.br/" target="_blank">Defesa Civil</a>.
 
+## 📧 Contato
+
+**Marcelo Martins**  
+Email: marcelomartins@gmail.com
+
+Para sugestões, dúvidas ou contribuições, entre em contato através do email acima.
+
 ## 🎯 Características
 
 - **Análise Automatizada**: Coleta dados meteorológicos da API Open-Meteo
