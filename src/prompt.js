@@ -57,7 +57,13 @@ E abaixo está o JSON com a previsão do tempo para os próximos dias:
 
 == FIM JSON PREVISÃO PRÓXIMOS DIAS
 
-Atue como um meteorologista experiente, e de informações sobre a previsão dos próximos dias em comparação com a enchente de 2024. Objetivo ter uma visão geral da previsão dos próximos dias, e saber a diferença entre a previsão dos próximos dias em comparação com a enchente de 2024.
+Atue como um meteorologista experiente, e de a previsão climática dos próximos dias em enfase nas chuvas em comparação com a enchente de 2024. Não falei sobre condição de vento.
+
+Objetivo ter uma visão geral da previsão dos próximos dias, e saber a diferença entre a previsão dos próximos dias em comparação com a enchente de 2024.
+
+Quando tiver previsão de chuva, destaque esse evento e de enfase em toda previsão sem falar de volume específico de chuva.
+
+Quando tiver previsão de chuva não fale sobre períodos sem chuva.
 
 Não use termos técnicos, fale para que pessoas comuns que não estudaram meteorologia consigam entender facilmente a diferença.
 
@@ -71,7 +77,7 @@ Não explique as condições da enchente de 2024.
 
 Responda apenas com:
 – Um pequeno resumo direto sem título, sem introdução nem conclusão.
-– Depois, apenas os tópicos com os motivos de estar pior ou melhor. Nos tópicos use negrito se fizer sentido. Utilize o titulo "Diferenças para a enchente de 2024" para os tópicos e deixe uma linha em branco embaixo desse título.
+– Depois, apenas os tópicos com uns 2 ou 3 motivos de estar pior ou melhor. Nos tópicos use negrito se fizer sentido. Utilize o titulo "Diferenças para a enchente de 2024" para os tópicos e deixe uma linha em branco embaixo desse título.
 
 Não escreva frases explicativas. Não contextualize. Apenas cumpra a estrutura acima.
 `;
