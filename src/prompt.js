@@ -77,7 +77,7 @@ Não explique as condições da enchente de 2024.
 
 Responda apenas com:
 – Um pequeno resumo direto sem título, sem introdução nem conclusão.
-– Depois, apenas os tópicos com uns 2 ou 3 motivos de estar pior ou melhor. Nos tópicos use negrito se fizer sentido. Utilize o titulo "Diferenças para a enchente de 2024" para os tópicos e deixe uma linha em branco embaixo desse título.
+– Depois, indique se a situação está melhor ou pior, e escreva topicos com os motivos. Nos tópicos use negrito em algumas partes se fizer sentido. Utilize o titulo "Diferenças para a enchente de 2024" para os tópicos e deixe uma linha em branco embaixo desse título.
 
 Não escreva frases explicativas. Não contextualize. Apenas cumpra a estrutura acima.
 `;

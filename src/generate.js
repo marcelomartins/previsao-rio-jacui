@@ -6,19 +6,38 @@ import { buildForecastPrompt } from "./prompt.js";
 // const LAT = -29.94, LON = -51.72; // Porto Alegre, RS, Brasil
 // const LAT = -28.95, LON = -51.55; // Veranópolis, RS, Brasil
 //const LAT = -29.1681, LON = -51.1794; // Caxias do Sul, RS, Brasil
-const LAT = -29.46694, LON = -51.96083; // Lajeado, RS, Brasil
+const LAT_LAJEADO = -29.46694, LON_LAJEADO = -51.96083; // Lajeado, RS, Brasil
+const LAT_PORTO_ALEGRE = -29.94, LON_PORTO_ALEGRE = -51.72; // Porto Alegre, RS, Brasil
 
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
 const publicDir = resolve("public");
 mkdirSync(publicDir, { recursive: true });
 
 async function main() {
+
+  const  meteoURL = `https://api.open-meteo.com/v1/forecast?latitude=${LAT_PORTO_ALEGRE}&longitude=${LON_PORTO_ALEGRE}`+
+              '&hourly=geopotential_height_500hPa,geopotential_height_300hPa,cape,lifted_index,wind_speed_10m,wind_gusts_10m,precipitation_probability,temperature_2m'+
+              '&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_sum'+
+              '&timezone=America%2FSao_Paulo' +
+              '&forecast_days=4';
   
-  const meteoURL = `https://api.open-meteo.com/v1/forecast?latitude=${LAT}&longitude=${LON}` +
-    "&hourly=geopotential_height_500hPa,geopotential_height_300hPa,cape,lifted_index,wind_speed_10m,wind_gusts_10m,precipitation_probability,temperature_2m" +
-    "&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_sum"
-    "&forecast_hours=120&timezone=America%2FSao_Paulo";
   const meteo = await fetch(meteoURL).then(r => r.json());
+
+  const meteoURL2 = `https://api.open-meteo.com/v1/forecast?latitude=${LAT_LAJEADO}&longitude=${LON_LAJEADO}`+
+            '&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_sum'+
+            '&timezone=America%2FSao_Paulo'+
+            '&forecast_days=4';
+
+  const meteo2 = await fetch(meteoURL2).then(r => r.json());
+
+  if (meteo.daily && meteo.daily.precipitation_sum && meteo2.daily && meteo2.daily.precipitation_sum) {
+    for (let i = 0; i < meteo.daily.precipitation_sum.length; i++) {
+      meteo.daily.precipitation_sum[i] = parseInt(meteo.daily.precipitation_sum[i] + meteo2.daily.precipitation_sum[i]);
+    }
+  }
+
+
+  console.log(meteo)
 
   const promptForecast = buildForecastPrompt(meteo);
 
