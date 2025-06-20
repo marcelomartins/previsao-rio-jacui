@@ -1,8 +1,8 @@
 name: Build & publish daily forecast
 
 on:
-  schedule:
-    - cron: "0 10 * * *"
+#  schedule:
+#    - cron: "0 10 * * *"
   workflow_dispatch:
 
 jobs:

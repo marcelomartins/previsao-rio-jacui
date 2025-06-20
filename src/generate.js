@@ -36,9 +36,6 @@ async function main() {
     }
   }
 
-
-  console.log(meteo)
-
   const promptForecast = buildForecastPrompt(meteo);
 
   const prompt = [ { role: "user", content: promptForecast } ];
@@ -61,18 +58,16 @@ async function main() {
     const html = `<!DOCTYPE html><html lang="pt-BR">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Previsão próximos dias - RS - ${ts}</title>
+  <title>Projeto DESATIVADO</title>
   <style>body{font-family:system-ui,Arial,sans-serif;margin:1rem;line-height:1.5;font-size:16px}h1{font-size:1.5rem;margin-bottom:1rem}a{color:#0066cc}</style>
-  <h1>Previsão no RS para os próximos dias em comparação a enchente de 2024</h1>
-  <div>Gerado em ${ts}</div>
-  <p>${htmlBody}</p>
-  <p>&nbsp;</p>
-  <p>
-    <strong>⚠️ Aviso Importante:</strong> Esta comparação é gerada por <strong>inteligência artificial</strong> e tem caráter apenas informativo. 
-    Para previsões meteorológicas oficiais e situações de emergência, consulte sempre os órgãos responsáveis como 
+  <h1>Projeto DESATIVADO.</h1>
+  <p>⚠️ Usar somente a previsão do tempo se mostrou <strong>ineficiente</strong> para comparar o cenário atual com a enchente de 2024. Seria necessário levar em conta o volume de agua nos rios e bloqueio atmosférico.</p>
+  <p>Por segurança desativei as previsões. </p>
+  <p>Para informações consulte sempre os órgãos responsáveis como 
     <a href="https://portal.inmet.gov.br/" target="_blank">INMET</a> e 
     <a href="https://www.defesacivil.rs.gov.br/" target="_blank">Defesa Civil</a>.
   </p>
+  <p>Caso eu consiga mais dados para ter alertas mais corretos, retormo esse projeto.</p>
   <p>&nbsp;</p>
   <footer style="margin-top:1rem;font-size:14px;color:#666;text-align:left">
     <p>Código fonte disponível em: <a href="https://github.com/marcelomartins/previsao-rs" target="_blank">github.com/marcelomartins/previsao-rs</a></p>
